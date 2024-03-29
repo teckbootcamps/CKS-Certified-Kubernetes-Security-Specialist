@@ -1,10 +1,8 @@
 # ☸️ Certified Kubernetes Security Specialist (CKS) Study Guide 2024
 
-
 <p align="center">
   <img src="assets/cks.png" alt="CKS EXAM">
 </p>
-
 
 The [Certified Kubernetes Security Specialist (CKS) certification](https://www.cncf.io/certification/cks/)  program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
 
@@ -32,7 +30,6 @@ Register today and use our exclusive coupon code TECK20 for the CKS exam to get 
   <img src="assets/voucher.png" alt="CKS EXAM Voucher">
 </p>
 
-
 [![GET VOUCHER](assets/voucher.png)](https://teckbootcamps.com/linux-foundation-coupons/)
 
 📚 [GET Kubernetes 1.29 New features (Blog Post): ](https://teckbootcamps.com/an-overview-of-new-features-in-kubernetes-v1-29/) 
@@ -44,7 +41,6 @@ Register today and use our exclusive coupon code TECK20 for the CKS exam to get 
 - [Minimize Microservice Vulnerabilities - 20%](d.minimize-microservice-vulnerabilities.md)
 - [Supply Chain Security - 20%](e.supply-chain-security.md)
 - [Monitoring, Logging and Runtime Security - 20%](f.monitoring-logging-and-runtime-security.md)
-
 
 
 # Additional Resources
