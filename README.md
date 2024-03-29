@@ -30,8 +30,6 @@ Register today and use our exclusive coupon code TECK20 for the CKS exam to get 
   <img src="assets/voucher.png" alt="CKS EXAM Voucher">
 </p>
 
-[![GET VOUCHER](assets/voucher.png)](https://teckbootcamps.com/linux-foundation-coupons/)
-
 📚 [GET Kubernetes 1.29 New features (Blog Post): ](https://teckbootcamps.com/an-overview-of-new-features-in-kubernetes-v1-29/) 
 
 # CKS Exam Syllabus (Kubernetes 1.29) 
