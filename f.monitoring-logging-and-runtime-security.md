@@ -15,3 +15,18 @@ Lastly, we'll cover how to collect logs from cluster events. These logs are valu
 - [x] Ensuring immutability of containers at runtime
 
 - [x] Using audit logs to monitor access
+
+
+    - [Falco](https://falco.org/docs/)
+
+    - [Protecting Kubernetes Against MITRE ATT&CK](https://cloud.redhat.com/blog/protecting-kubernetes-against-mitre-attck-initial-access)
+
+    - [Kubernetes Documentation > Tasks > Monitoring, Logging, and Debugging >Auditing](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/)
+
+    - [Kubernetes Documentation > Concepts > Containers](https://kubernetes.io/docs/concepts/containers/)
+
+    - [Kubernetes Documentation > Tasks > Configure Pods and > Containers > Configure a Security Context for a Pod or Container](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
+
+        > `readOnlyRootFilesystem`: Mounts the container's root filesystem as read-only
+
+    - [Kubernetes Documentation > Tasks > Monitoring, Logging, and Debugging >Auditing](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/)

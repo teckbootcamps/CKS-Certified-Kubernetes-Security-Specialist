@@ -12,3 +12,8 @@ Earlier sections focused on securing the Kubernetes environment and operations w
 
 - [x] Scanning images for known vulnerabilities
 
+
+    - [Kubernetes Documentation > Reference > API Access Control > Using Admission Controllers > ImagePolicyWebhook](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#imagepolicywebhook)
+
+    - [Trivy](https://github.com/aquasecurity/trivy)
+

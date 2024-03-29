@@ -11,3 +11,17 @@ The "system hardening" section is all about making sure the computers running th
 - [x] Minimizing external access to the network
 
 - [x] Using kernel hardening tools like AppArmor and seccomp
+
+    - [AWS > Security best practices in IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
+
+    - [GCP - Using IAM securely](https://cloud.google.com/iam/docs/using-iam-securely)
+
+    - [Azure > Best practices for Azure RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/best-practices)
+
+    - [Kubernetes Documentation > Concepts > Services, Load Balancing, and Networking > Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+
+    - [Kubernetes Documentation > Tutorials > Security > Restrict a Container's Access to Resources with AppArmor](https://kubernetes.io/docs/tutorials/security/apparmor/)
+
+    - [Kubernetes Documentation > Tutorials > Security > Restrict a Container's Syscalls with seccomp](https://kubernetes.io/docs/tutorials/security/seccomp/)
+    
+    - [AppArmor Documentation](https://gitlab.com/apparmor/apparmor/-/wikis/Documentation)
