@@ -23,12 +23,10 @@ Register today and use our exclusive coupon code TECK20 for the CKS exam to get 
 
 - [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)<sup>Github</sup>
 
-💰💰 [GET 20% OFF ON KUBERNETES CKS VOUCHER $395 --> $316](https://teckbootcamps.com/linux-foundation-coupons/#%f0%9f%94%a5-20-off-kubernetes-certification-coupon-ckad-cka-cks-running-now)<sup>Blog</sup>
+💰💰 [GET 20% OFF ON KUBERNETES CKS VOUCHER $395 --> $316](http://shrsl.com/4a08r)<sup>Blog</sup>
 
+[![GET VOUCHER](assets/voucher.png)](http://shrsl.com/4a08r)
 
-<p align="center">
-  <img src="assets/voucher.png" alt="CKS EXAM Voucher">
-</p>
 
 📚 [GET Kubernetes 1.29 New features (Blog Post): ](https://teckbootcamps.com/an-overview-of-new-features-in-kubernetes-v1-29/) 
 
