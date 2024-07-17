@@ -1,4 +1,4 @@
-# ☸️ Certified Kubernetes Security Specialist (CKS) Study Guide 2024
+# ☸️ Certified Kubernetes Security Specialist (CKS) Study Guide 2024 ( Updated July 2024) )
 
 <p align="center">
   <img src="assets/cks.png" alt="CKS EXAM">
@@ -30,7 +30,7 @@ Register today and use our exclusive coupon code TECK20 for the CKS exam to get 
 
 📚 [GET Kubernetes 1.29 New features (Blog Post): ](https://teckbootcamps.com/an-overview-of-new-features-in-kubernetes-v1-29/) 
 
-# CKS Exam Syllabus (Kubernetes 1.29) 
+# CKS Exam Syllabus (Kubernetes 1.30) 
 - [Cluster Setup - 10%](a.cluster-setup.md)
 - [Cluster Hardening - 15%](b.cluster-hardening.md)
 - [System Hardening - 15%](c.system-hardening.md)
