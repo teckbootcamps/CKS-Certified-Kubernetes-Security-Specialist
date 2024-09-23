@@ -1,4 +1,4 @@
-# ☸️ Certified Kubernetes Security Specialist (CKS) Study Guide 2024 ( Updated July 2024) )
+# ☸️ Certified Kubernetes Security Specialist (CKS) Study Guide 2024 ( Updated September 2024) )
 
 <p align="center">
   <img src="assets/cks.png" alt="CKS EXAM">
@@ -16,19 +16,18 @@ UPCOMING POLICY CHANGE: Please note that our Certification Period Policy is chan
 
 * 📚 [Mohamed BEN HASSINE: Guide to Certified Kubernetes Security Specialist (CKS) ](https://teckbootcamps.com/cks-exam-study-guide/)<sup>Blog</sup>
 
-# Register for the CKS Certification [Save 20% Today]
-To begin your journey of becoming a Certified Kubernetes Administrator(CKS) – start by registering for the CKS exam on the Linux Foundation portal. When you register you get free access to two sessions of killer.sh CKS practice exams that will help you clear the CKS exam.
+## 💰💰 [30% OFF] Kubernetes Certification Coupon CKS
 
-Register today and use our exclusive coupon code TECK20 for the CKS exam to get a 20% discount on CKS (and KCNA, CKAD, and CKA certifications ). This code "TECK20" expires soon.
+Save 30% using Coupon code **TECK30** on all the Linux Foundation training and certification programs. This is a limited-time offer for this month. This offer is applicable for CKA, CKAD, CKS, KCNA, LFCS, PCA FINOPS, NodeJS, CHFA, and all the other certification, training, and BootCamp programs.
 
-- [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)<sup>Github</sup>
-
-💰💰 [GET 20% OFF ON KUBERNETES CKS VOUCHER $395 --> $316](http://shrsl.com/4a08r)<sup>Blog</sup>
-
-[![GET VOUCHER](assets/voucher.png)](http://shrsl.com/4a08r)
+-  Kubernetes CKS VOUCHER ($395 —> $276): [kube.promo/cks](https://teckbootcamps.com/go/cks-exam-2024/)
 
 
-📚 [GET Kubernetes 1.29 New features (Blog Post): ](https://teckbootcamps.com/an-overview-of-new-features-in-kubernetes-v1-29/) 
+> Announcement: The CKA exam syllabus will be updated on November 25th, 2024. Read our CKA exam update [blog](https://teckbootcamps.com/cka-exam-update-new-features-and-removed-content-explained/) to learn more.
+
+> The CKS exam syllabus will change starting October 10th, 2024. Check out our CKS exam update [blog](https://teckbootcamps.com/cks-exam-update-whats-new-whats-removed/) for more details.
+If you’re planning to take the CKA or CKS certification and are looking for a discount, take advantage of this offer to get the best deal on CKA or CKS coupons.
+
 
 # CKS Exam Syllabus (Kubernetes 1.30) 
 - [Cluster Setup - 10%](a.cluster-setup.md)
