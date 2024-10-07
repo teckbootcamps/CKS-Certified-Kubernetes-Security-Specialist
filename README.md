@@ -14,7 +14,7 @@ Simulation includes 20-25 questions (which are exactly the same for every attemp
 
 UPCOMING POLICY CHANGE: Please note that our Certification Period Policy is changing effective April 01, 2024, 00:00UTC. Certifications achieved on or after this date will expire 24 months from the date the program certification requirements, including passing the exam, are met. We encourage anyone interested and prepared to schedule and take your exam before the policy change. Please see additional details here.
 
-* 📚 [Mohamed BEN HASSINE: Guide to Certified Kubernetes Security Specialist (CKS) ](https://teckbootcamps.com/cks-exam-study-guide/)<sup>Blog</sup>
+* 📚 [Guide to Certified Kubernetes Security Specialist (CKS) ](https://teckbootcamps.com/cks-exam-study-guide/)<sup>Blog</sup>
 
 ## 💰💰 [30% OFF] Kubernetes Certification Coupon CKS
 
@@ -40,8 +40,8 @@ If you’re planning to take the CKA or CKS certification and are looking for a 
 
 # Additional Resources
 * 💬 [Kubernetes Slack Channel #certifications](https://kubernetes.slack.com/)<sup>Slack</sup>
-* 📚 [Mohamed BEN HASSINE: Guide to Certified Kubernetes Administrator (CKA)](https://teckbootcamps.com/cka-exam-study-guide/)<sup>Blog</sup>
-* 📚 [Mohamed BEN HASSINE: Guide to Certified Kubernetes Security Specialist (CKS) ](https://teckbootcamps.com/cks-exam-study-guide/)<sup>Blog</sup>
+* 📚 [Guide to Certified Kubernetes Administrator (CKA)](https://teckbootcamps.com/cka-exam-study-guide/)<sup>Blog</sup>
+* 📚 [Guide to Certified Kubernetes Security Specialist (CKS) ](https://teckbootcamps.com/cks-exam-study-guide/)<sup>Blog</sup>
 * 🎞️ [Kubernetes CKS Full Course Theory + Practice + Browser Scenarios](https://www.youtube.com/watch?v=d9xfB5qaOfg)<sup>Video Course</sup>
 * 🎞️ [Kubernetes Fundamentals (LFS258) - Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-fundamentals/)<sup>Official Course</sup>
 * 🎞️ [Kubernetes Deep Dive - A Cloud Guru](https://acloud.guru/learn/kubernetes-deep-dive)<sup>Video Course</sup>
@@ -151,11 +151,3 @@ To indent multiple lines press Esc and type :set shiftwidth=2. First mark multip
 
 # 💬 Share To Your Network
 If this repo has helped you in any way, feel free to share !
-
-# 💬 Author
-* 👨 🇹🇳 [Aboute ME : Mohamed BEN HASSINE](https://teckbootcamps.com/about-me/)<sup>Blog</sup>
-* 👨 [Contact ME in LinkedIn ](https://www.linkedin.com/in/mohamedbnhassine/)<sup>LinkedIn</sup>
-* 👨 [Find ME in Medium ](https://medium.com/@teckbootcamps)<sup>Medium</sup>
-* ☸ ☸ 3X Certified Kubernetes([CKAD](https://teckbootcamps.com/ckad-exam-study-guide/)<sup>Blog</sup>, [CKA](https://teckbootcamps.com/cka-exam-study-guide//)<sup>Blog</sup> ,[CKS](https://teckbootcamps.com/cks-exam-study-guide/)<sup>Blog</sup>)
-* ☁️ ☁️ Google Cloud Solutions Architect ||  [4X certified GCP Cloud](https://www.credential.net/profile/mohamedbenhassine968370/wallet)<sup>Certifications</sup>
-* 👨🏼‍💻 👨🏼‍💻 14+ years of experience in the tech
