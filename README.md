@@ -1,4 +1,4 @@
-# ☸️ Certified Kubernetes Security Specialist (CKS) Study Guide 2024 ( Updated September 2024) )
+# ☸️ Certified Kubernetes Security Specialist (CKS) Study Guide 2024 ( Updated December 2024) )
 
 <p align="center">
   <img src="assets/cks.png" alt="CKS EXAM">
@@ -16,17 +16,15 @@ UPCOMING POLICY CHANGE: Please note that our Certification Period Policy is chan
 
 * 📚 [Guide to Certified Kubernetes Security Specialist (CKS) ](https://teckbootcamps.com/cks-exam-study-guide/)<sup>Blog</sup>
 
-## 💰💰 [30% OFF] Kubernetes Certification Coupon CKS
+## 💰💰 [50% OFF] Kubernetes Certification Coupon CKS
 
-Save 30% using Coupon code **TECK30** on all the Linux Foundation training and certification programs. This is a limited-time offer for this month. This offer is applicable for CKA, CKAD, CKS, KCNA, LFCS, PCA FINOPS, NodeJS, CHFA, and all the other certification, training, and BootCamp programs.
+Save 50% using Coupon code **CYBER24CC** on all the Linux Foundation training and certification programs. This is a limited-time offer for this month. This offer is applicable for CKA, CKAD, CKS, KCNA, LFCS, PCA FINOPS, NodeJS, CHFA, and all the other certification, training, and BootCamp programs.
 
--  Kubernetes CKS VOUCHER ($395 —> $276): [kube.promo/cks](https://teckbootcamps.com/go/cks-exam-2024/)
+-  Kubernetes CKS VOUCHER ($395 —> $197): [kube.promo/cks](https://teckbootcamps.com/go/cks-exam-2024/)
 
-
-> Announcement: The CKA exam syllabus will be updated on November 25th, 2024. Read our CKA exam update [blog](https://teckbootcamps.com/cka-exam-update-new-features-and-removed-content-explained/) to learn more.
-
-> The CKS exam syllabus will change starting October 10th, 2024. Check out our CKS exam update [blog](https://teckbootcamps.com/cks-exam-update-whats-new-whats-removed/) for more details.
+> The CKS exam syllabus has been changed since October 10th, 2024. Check out our CKS exam update [blog](https://teckbootcamps.com/cks-exam-update-whats-new-whats-removed/) for more details.
 If you’re planning to take the CKA or CKS certification and are looking for a discount, take advantage of this offer to get the best deal on CKA or CKS coupons.
+CYBER24CC
 
 
 # CKS Exam Syllabus (Kubernetes 1.30) 
