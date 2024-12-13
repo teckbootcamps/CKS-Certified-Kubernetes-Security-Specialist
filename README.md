@@ -1,20 +1,17 @@
-# ☸️ Certified Kubernetes Security Specialist (CKS) Study Guide 2024 ( Updated December 2024) )
+# ☸️  Certified Kubernetes Security Specialist (CKS) Study Guide - V1.31 (2024)
 
 <p align="center">
   <img src="assets/cks.png" alt="CKS EXAM">
 </p>
 
+> This guide is part of our blog [Guide to Certified Kubernetes Security Specialist (CKS)  ](https://teckbootcamps.com/cks-exam-study-guide/).
+
+## Hit the Star! :star:
+> If you are using this repo for guidance, please hit the star. Thanks A lot !
+
+
 The [Certified Kubernetes Security Specialist (CKS) certification](https://www.cncf.io/certification/cks/)  program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
 
- 
-Not sure where to start? You may consider reviewing our suggested CKS learning path.
-
-EXAM SIMULATOR! Learners will now have access to an exam simulator, provided by Killer.sh, to experience the exam environment. You will have two exam simulation attempts (36 hours of access for each attempt from the start of activation).
-Simulation includes 20-25 questions (which are exactly the same for every attempt and every user (unlike those found on the actual exams) and graded simulation results).
-
-UPCOMING POLICY CHANGE: Please note that our Certification Period Policy is changing effective April 01, 2024, 00:00UTC. Certifications achieved on or after this date will expire 24 months from the date the program certification requirements, including passing the exam, are met. We encourage anyone interested and prepared to schedule and take your exam before the policy change. Please see additional details here.
-
-* 📚 [Guide to Certified Kubernetes Security Specialist (CKS) ](https://teckbootcamps.com/cks-exam-study-guide/)<sup>Blog</sup>
 
 ## 💰💰 [50% OFF] Kubernetes Certification Coupon CKS
 
