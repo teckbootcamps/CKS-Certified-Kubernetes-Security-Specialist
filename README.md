@@ -1,3 +1,6 @@
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 # ☸️  Certified Kubernetes Security Specialist (CKS) Study Guide - V1.31 (2024)
 
 <p align="center">
