@@ -10,21 +10,29 @@
 > If you are using this repo for guidance, please hit the star. Thanks A lot !
 
 
-The [Certified Kubernetes Security Specialist (CKS) certification](https://www.cncf.io/certification/cks/)  program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
+The [Certified Kubernetes Security Specialist (CKS) certification](https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/)  program provides assurance that a CKS has the skills, knowledge, and competence on a broad range of best practices for securing container-based applications and Kubernetes platforms during build, deployment and runtime. CKA certification is required to sit for this exam.
+
+## CKS Exam details (v1.31  2024 ) 
+
+| **CKA Exam Details**                     | **Information**                                                                                     |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Exam Type**                             | Performance Based NOT MCQ )                                    |
+| **Exam Duration**                         | 2 hours                                                                                            |
+| **Pass Percentage**                       | 66%  ( One Retake )                                                                                             |
+| **CKS Exam Kubernetes Version**          | [Kubernetes v1.31](#cks-exam-syllabus-updated-kubernetes-131-2024)                                                                               |
+| **CKS Validity**                         | 2 Years  |
+| **Exam Cost**                            | $395 USD ([GET 30% OFF CKA Exam Coupon](https://github.com/teckbootcamps/linux-foundation-coupon?tab=readme-ov-file#-30-off-kubernetes-certification-coupon-ckad--cka--cks)) 💥INCREASE PRICE:  $434 in January 2025         |
 
 
-## 💰💰 [50% OFF] Kubernetes Certification Coupon CKS
 
-Save 50% using Coupon code **CYBER24CC** on all the Linux Foundation training and certification programs. This is a limited-time offer for this month. This offer is applicable for CKA, CKAD, CKS, KCNA, LFCS, PCA FINOPS, NodeJS, CHFA, and all the other certification, training, and BootCamp programs.
+## [30% OFF]  CKA Exam Coupon
 
--  Kubernetes CKS VOUCHER ($395 —> $197): [kube.promo/cks](https://teckbootcamps.com/go/cks-exam-2024/)
+Save 30% using Coupon code **TECK30** on all the Linux Foundation training and certification programs. This is a limited-time offer for this month. This offer is applicable for CKA, CKAD, CKS, KCNA, LFCS, PCA FINOPS, NodeJS, CHFA, and all the other certification, training, and BootCamp programs.
 
-> The CKS exam syllabus has been changed since October 10th, 2024. Check out our CKS exam update [blog](https://teckbootcamps.com/cks-exam-update-whats-new-whats-removed/) for more details.
-If you’re planning to take the CKA or CKS certification and are looking for a discount, take advantage of this offer to get the best deal on CKA or CKS coupons.
-CYBER24CC
+> Kubernetes CKS VOUCHER ($395 —> $276): [teckbootcamps-30%off/cks](https://teckbootcamps.com/go/cks-exam-2024/)
 
 
-# CKS Exam Syllabus (Kubernetes 1.30) 
+## CKS Exam Syllabus (Updated Kubernetes 1.31)
 - [Cluster Setup - 10%](a.cluster-setup.md)
 - [Cluster Hardening - 15%](b.cluster-hardening.md)
 - [System Hardening - 15%](c.system-hardening.md)
