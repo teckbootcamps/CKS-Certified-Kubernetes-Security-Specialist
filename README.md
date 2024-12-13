@@ -33,12 +33,15 @@ Save 30% using Coupon code **TECK30** on all the Linux Foundation training and c
 
 
 ## CKS Exam Syllabus (Updated Kubernetes 1.31)
-- [Cluster Setup - 10%](a.cluster-setup.md)
-- [Cluster Hardening - 15%](b.cluster-hardening.md)
-- [System Hardening - 15%](c.system-hardening.md)
-- [Minimize Microservice Vulnerabilities - 20%](d.minimize-microservice-vulnerabilities.md)
-- [Supply Chain Security - 20%](e.supply-chain-security.md)
-- [Monitoring, Logging and Runtime Security - 20%](f.monitoring-logging-and-runtime-security.md)
+
+| **Topic**                           | **Concepts**                                                                                                                                                               | **Weightage** |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| [**1. Cluster Setup - 15%**](#1-cluster-setup-15)                   | - Use Network security policies to restrict cluster-level access<br>- Use CIS benchmark to review the security configuration of Kubernetes components (etcd, kubelet, kubedns, kubeapi)<br>- Properly set up Ingress with TLS<br>- Protect node metadata and endpoints<br>- Verify platform binaries before deploying | 15%          |
+| [**2. Cluster Hardening - 15%**](#2-cluster-hardening-15)               | - Use Role-Based Access Controls to minimize exposure<br>- Exercise caution in using service accounts (e.g., disable defaults, minimize permissions on newly created ones)<br>- Restrict access to Kubernetes API<br>- Upgrade Kubernetes to avoid vulnerabilities | 15%          |
+| [**3. System Hardening - 10%**](#3-system-hardening-10)                | - Minimize host OS footprint (reduce attack surface)<br>- Use least-privilege identity and access management<br>- Minimize external access to the network<br>- Appropriately use kernel hardening tools such as AppArmor, seccomp | 10%          |
+| [**4. Minimize Microservice Vulnerabilities - 20%**](#4-minimize-microservice-vulnerabilities-20) | - Use appropriate pod security standards<br>- Manage Kubernetes secrets<br>- Understand and implement isolation techniques (multi-tenancy, sandboxed containers, etc.)<br>- Implement Pod-to-Pod encryption using Cilium | 20%          |
+| [**5. Supply Chain Security - 20%**](#5-supply-chain-security-20)           | - Minimize base image footprint<br>- Understand your supply chain (e.g., SBOM, CI/CD, artifact repositories)<br>- Secure your supply chain (permitted registries, sign and validate artifacts, etc.)<br>- Perform static analysis of user workloads and container images (e.g., Kubesec, KubeLinter) | 20%          |
+| [**6. Monitoring, Logging and Runtime Security - 20%**](#6-monitoring-logging-and-runtime-security-20) | - Perform behavioral analytics to detect malicious activities<br>- Detect threats within physical infrastructure, apps, networks, data, users, and workloads<br>- Investigate and identify phases of attack and bad actors within the environment<br>- Ensure immutability of containers at runtime<br>- Use Kubernetes audit logs to monitor access | 20%          |
 
 
 # Additional Resources
