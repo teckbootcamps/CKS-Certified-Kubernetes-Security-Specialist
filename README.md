@@ -44,11 +44,11 @@ Save 30% using Coupon code **TECK30** on all the Linux Foundation training and c
 | [**6. Monitoring, Logging and Runtime Security - 20%**](#6-monitoring-logging-and-runtime-security-20) | - Perform behavioral analytics to detect malicious activities<br>- Detect threats within physical infrastructure, apps, networks, data, users, and workloads<br>- Investigate and identify phases of attack and bad actors within the environment<br>- Ensure immutability of containers at runtime<br>- Use Kubernetes audit logs to monitor access | 20%          |
 
 
-## 1. Cluster Setup (15%)
+# 1. Cluster Setup (15%)
 
 This domain constitutes 15% of the CKS Exam. Below are the key topics explained with examples and best practices to secure your Kubernetes cluster.
 
-### 1. Use Network Security Policies to Restrict Cluster Level Access
+### Use Network Security Policies to Restrict Cluster Level Access
 > NetworkPolicies control communication between Pods and network endpoints, enforcing security rules.
 
 #### Example:
@@ -83,7 +83,7 @@ kubectl describe networkpolicy restrict-access
 
 - [Learn more about NetworkPolicies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 
-### 2. Use CIS Benchmark to Review the Security Configuration of Kubernetes Components
+### Use CIS Benchmark to Review the Security Configuration of Kubernetes Components
 > The Center for Internet Security (CIS) benchmarks provide best practices for securing Kubernetes.
 
 #### Example:
@@ -100,7 +100,7 @@ kube-bench run --targets etcd,kubelet,kubeapi
 
 > - [Learn more about CIS Benchmarks](https://www.cisecurity.org/benchmark/kubernetes/)
 
-### 3. Properly Set Up Ingress with TLS
+### Properly Set Up Ingress with TLS
 > Ingress with TLS secures HTTP communication to services.
 
 #### Example:
@@ -142,7 +142,7 @@ curl -k https://example.com
 
 > - [Learn more about TLS with Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/#tls)
 
-### 4. Protect Node Metadata and Endpoints
+### Protect Node Metadata and Endpoints
 > Securing node metadata prevents unauthorized access to sensitive information.
 
 #### Best Practices:
@@ -159,7 +159,7 @@ iptables -A OUTPUT -d 169.254.169.254 -j DROP
 
 > - [Learn more about protecting metadata](https://cloud.google.com/kubernetes-engine/docs/how-to/protecting-cluster-metadata)
 
-### 5. Verify Platform Binaries Before Deploying
+### Verify Platform Binaries Before Deploying
 > Ensuring the integrity of platform binaries mitigates risks of tampered software.
 
 #### Best Practices:
@@ -184,10 +184,10 @@ sha256sum --check kubectl.sha256
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
 
-## 2. Cluster Hardening (15%)
+# 2. Cluster Hardening (15%)
 > This domain constitutes 15% of the CKS Exam. Below are the key topics explained with examples and best practices to harden your Kubernetes cluster.
 
-### 1. Use Role-Based Access Controls (RBAC) to Minimize Exposure
+### Use Role-Based Access Controls (RBAC) to Minimize Exposure
 > RBAC ensures that users and applications have only the permissions they need.
 
 #### Example:
@@ -226,7 +226,7 @@ kubectl apply -f rolebinding.yaml
 
 > - [Learn more about RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 
-### 2. Exercise Caution in Using Service Accounts
+### Exercise Caution in Using Service Accounts
 > By default, service accounts may have more privileges than necessary. Disable or restrict these accounts to improve security.
 
 #### Best Practices:
@@ -250,7 +250,7 @@ kubectl apply -f serviceaccount.yaml
 
 > - [Learn more about Service Accounts](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)
 
-### 3. Restrict Access to Kubernetes API
+### Restrict Access to Kubernetes API
 > Limiting access to the Kubernetes API minimizes the risk of unauthorized actions.
 
 #### Best Practices:
@@ -280,7 +280,7 @@ kubectl apply -f networkpolicy.yaml
 
 > - [Learn more about securing API access](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/)
 
-### 4. Upgrade Kubernetes to Avoid Vulnerabilities
+### Upgrade Kubernetes to Avoid Vulnerabilities
 > Regularly upgrading Kubernetes ensures that you benefit from security patches and new features.
 
 #### Best Practices:
@@ -309,11 +309,11 @@ kubectl version --short
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
 
-## 3. System Hardening (10%)
+# 3. System Hardening (10%)
 
 > This domain constitutes 10% of the CKS Exam. Below are the key topics explained with examples and best practices to harden your system.
 
-### 1. Minimize Host OS Footprint (Reduce Attack Surface)
+### Minimize Host OS Footprint (Reduce Attack Surface)
 > A minimal host OS reduces the attack surface by limiting unnecessary services and applications.
 
 #### Best Practices:
@@ -328,7 +328,7 @@ gcloud compute instances create <instance-name> --image-family=cos-stable --imag
 ```
 > - [Learn more about Container-Optimized OS](https://cloud.google.com/container-optimized-os/docs)
 
-### 2. Use Least-Privilege Identity and Access Management
+### Use Least-Privilege Identity and Access Management
 > Ensure that users and applications have only the permissions they need.
 
 #### Example:
@@ -342,7 +342,7 @@ Use Role-Based Access Control (RBAC) as shown in the "Cluster Hardening" section
 
 > - [Learn more about IAM Best Practices](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 
-### 3. Minimize External Access to the Network
+### Minimize External Access to the Network
 > Restrict external access to nodes and Kubernetes resources to reduce exposure.
 
 #### Best Practices:
@@ -361,7 +361,7 @@ gcloud compute firewall-rules create restrict-access --direction=INGRESS --prior
 
 > - [Learn more about securing networks](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 
-### 4. Appropriately Use Kernel Hardening Tools (e.g., AppArmor, seccomp)
+### Appropriately Use Kernel Hardening Tools (e.g., AppArmor, seccomp)
 > Kernel hardening tools like **AppArmor** and **seccomp** restrict what system calls and resources a container can access.
 
 #### Example:
@@ -411,10 +411,10 @@ kubectl apply -f apparmor-demo.yaml
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
 
-## 4. Minimize Microservice Vulnerabilities (20%)
+# 4. Minimize Microservice Vulnerabilities (20%)
 > This domain constitutes 20% of the CKS Exam. Below are the key topics explained with examples and best practices to minimize vulnerabilities in microservices.
 
-### 1. Use Appropriate Pod Security Standards
+### Use Appropriate Pod Security Standards
 > Pod security standards (PSS) define best practices for securing Pods by restricting capabilities and enforcing security policies.
 
 #### Example:
@@ -451,7 +451,7 @@ kubectl apply -f podsecuritypolicy.yaml
 ```
 > - [Learn more about Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/)
 
-### 2. Manage Kubernetes Secrets
+### Manage Kubernetes Secrets
 > Secrets store sensitive data like passwords, tokens, and keys, and should be managed securely.
 
 #### Example:
@@ -486,7 +486,7 @@ kubectl apply -f secret-demo.yaml
 ```
 > - [Learn more about Kubernetes Secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
 
-### 3. Understand and Implement Isolation Techniques (Multi-Tenancy, Sandboxed Containers, etc.)
+### Understand and Implement Isolation Techniques (Multi-Tenancy, Sandboxed Containers, etc.)
 > Isolation techniques help separate workloads for security and resource management.
 
 #### Best Practices:
@@ -519,7 +519,7 @@ kubectl apply -f resource-quota.yaml
 > - [Learn more about gVisor](https://gvisor.dev/)
 > - [Learn more about Kata Containers](https://katacontainers.io/)
 
-### 4. Implement Pod-to-Pod Encryption Using Cilium
+### Implement Pod-to-Pod Encryption Using Cilium
 > Cilium enables secure communication between Pods using eBPF-based networking and encryption.
 
 #### Example:
@@ -549,10 +549,10 @@ kubectl exec -it <pod-name> -- curl https://<target-pod-ip>
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
 
-## 5. Supply Chain Security (20%)
+# 5. Supply Chain Security (20%)
 > This domain constitutes 20% of the CKS Exam. Below are the key topics explained with examples and best practices to secure your Kubernetes supply chain.
 
-### 1. Minimize Base Image Footprint
+### Minimize Base Image Footprint
 > Using minimal base images reduces the attack surface by limiting unnecessary software and dependencies.
 
 #### Best Practices:
@@ -573,7 +573,7 @@ docker push <registry>/minimal-app:latest
 ```
 > - [Learn more about distroless images](https://github.com/GoogleContainerTools/distroless)
 
-### 2. Understand Your Supply Chain (e.g., SBOM, CI/CD, Artifact Repositories)
+### Understand Your Supply Chain (e.g., SBOM, CI/CD, Artifact Repositories)
 > Understanding your software supply chain involves tracking the sources and dependencies of your workloads.
 
 #### Example:
@@ -590,7 +590,7 @@ trivy image <registry>/minimal-app:latest
 > - [Learn more about SBOM](https://github.com/anchore/syft)
 > - [Learn more about Trivy](https://github.com/aquasecurity/trivy)
 
-### 3. Secure Your Supply Chain (Permitted Registries, Sign and Validate Artifacts, etc.)
+### Secure Your Supply Chain (Permitted Registries, Sign and Validate Artifacts, etc.)
 > Enforcing policies for registries and artifact validation ensures secure deployment of images.
 
 #### Example:
@@ -621,7 +621,7 @@ cosign verify <registry>/minimal-app:latest
 ```
 > - [Learn more about Cosign](https://github.com/sigstore/cosign)
 
-### 4. Perform Static Analysis of User Workloads and Container Images
+### Perform Static Analysis of User Workloads and Container Images
 > Static analysis tools help detect misconfigurations and vulnerabilities in workloads and container images.
 
 #### Example:
@@ -648,10 +648,10 @@ trivy image <registry>/minimal-app:latest
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
 
-## 6. Monitoring, Logging, and Runtime Security (20%)
+# 6. Monitoring, Logging, and Runtime Security (20%)
 > This domain constitutes 20% of the CKS Exam. Below are the key topics explained with examples and best practices to enhance monitoring, logging, and runtime security in Kubernetes.
 
-### 1. Perform Behavioral Analytics to Detect Malicious Activities
+### Perform Behavioral Analytics to Detect Malicious Activities
 > Behavioral analytics involves monitoring application and system behavior to detect anomalies that may indicate malicious activities.
 
 #### Example:
@@ -671,7 +671,7 @@ helm install falco falcosecurity/falco --namespace kube-system
 ```
 > - [Learn more about Falco](https://falco.org/)
 
-### 2. Detect Threats Within Physical Infrastructure, Apps, Networks, Data, Users, and Workloads
+### Detect Threats Within Physical Infrastructure, Apps, Networks, Data, Users, and Workloads
 > Threat detection ensures a comprehensive security posture across the Kubernetes environment.
 
 #### Example:
@@ -683,7 +683,7 @@ helm install sysdig sysdig/sysdig --set sysdig.accessKey=<YOUR-ACCESS-KEY>
 > Monitor threats across the cluster by configuring Sysdig or similar tools for Kubernetes.
 > - [Learn more about Sysdig](https://sysdig.com/)
 
-### 3. Investigate and Identify Phases of Attack and Bad Actors Within the Environment
+### Investigate and Identify Phases of Attack and Bad Actors Within the Environment
 > Understanding attack phases helps in identifying and mitigating threats effectively.
 
 #### Example:
@@ -696,7 +696,7 @@ helm install efk elasticsearch fluentd kibana --namespace monitoring
 
 > - [Learn more about Kubernetes Logging](https://kubernetes.io/docs/concepts/cluster-administration/logging/)
 
-### 4. Ensure Immutability of Containers at Runtime
+### Ensure Immutability of Containers at Runtime
 > Immutability ensures that containers remain unchanged during runtime, preventing unauthorized modifications.
 
 #### Example:
@@ -721,7 +721,7 @@ kubectl apply -f immutable-container.yaml
 
 > - [Learn more about Immutability](https://kubernetes.io/docs/concepts/policy/security-context/)
 
-### 5. Use Kubernetes Audit Logs to Monitor Access
+### Use Kubernetes Audit Logs to Monitor Access
 > Audit logs provide detailed records of cluster activities, helping to monitor and investigate access.
 
 #### Example:
