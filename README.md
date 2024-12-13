@@ -44,7 +44,7 @@ Save 30% using Coupon code **TECK30** on all the Linux Foundation training and c
 | [**6. Monitoring, Logging and Runtime Security - 20%**](#6-monitoring-logging-and-runtime-security-20) | - Perform behavioral analytics to detect malicious activities<br>- Detect threats within physical infrastructure, apps, networks, data, users, and workloads<br>- Investigate and identify phases of attack and bad actors within the environment<br>- Ensure immutability of containers at runtime<br>- Use Kubernetes audit logs to monitor access | 20%          |
 
 
-## Cluster Setup (15%)
+## 1. Cluster Setup (15%)
 
 This domain constitutes 15% of the CKS Exam. Below are the key topics explained with examples and best practices to secure your Kubernetes cluster.
 
@@ -183,7 +183,8 @@ sha256sum --check kubectl.sha256
 > - [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
-## Cluster Hardening (15%)
+
+## 2. Cluster Hardening (15%)
 > This domain constitutes 15% of the CKS Exam. Below are the key topics explained with examples and best practices to harden your Kubernetes cluster.
 
 ### 1. Use Role-Based Access Controls (RBAC) to Minimize Exposure
@@ -308,8 +309,7 @@ kubectl version --short
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
 
-
-## System Hardening (10%)
+## 3. System Hardening (10%)
 
 > This domain constitutes 10% of the CKS Exam. Below are the key topics explained with examples and best practices to harden your system.
 
@@ -410,7 +410,8 @@ kubectl apply -f apparmor-demo.yaml
 > - [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
-## Minimize Microservice Vulnerabilities (20%)
+
+## 4. Minimize Microservice Vulnerabilities (20%)
 > This domain constitutes 20% of the CKS Exam. Below are the key topics explained with examples and best practices to minimize vulnerabilities in microservices.
 
 ### 1. Use Appropriate Pod Security Standards
@@ -547,7 +548,8 @@ kubectl exec -it <pod-name> -- curl https://<target-pod-ip>
 > - [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
-## Supply Chain Security (20%)
+
+## 5. Supply Chain Security (20%)
 > This domain constitutes 20% of the CKS Exam. Below are the key topics explained with examples and best practices to secure your Kubernetes supply chain.
 
 ### 1. Minimize Base Image Footprint
@@ -646,7 +648,7 @@ trivy image <registry>/minimal-app:latest
 > - [CKS Exam Tips](https://kubernetes.io/docs/certifications/)
 
 
-## Monitoring, Logging, and Runtime Security (20%)
+## 6. Monitoring, Logging, and Runtime Security (20%)
 > This domain constitutes 20% of the CKS Exam. Below are the key topics explained with examples and best practices to enhance monitoring, logging, and runtime security in Kubernetes.
 
 ### 1. Perform Behavioral Analytics to Detect Malicious Activities
